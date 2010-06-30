@@ -1,0 +1,10 @@
+xcode
+  http://developer.apple.com/technologies/xcode.html
+brew
+  ruby -e "$(curl -fsS http://gist.github.com/raw/323731/install_homebrew.rb)"
+  brew install git
+  brew install postgresql
+  brew install imagemagick
+  brew install ack
+rvm
+  bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
