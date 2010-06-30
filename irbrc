@@ -4,7 +4,6 @@ require 'pp'
 require 'irb/ext/save-history'
 require 'irb/completion'
 
-require 'map_by_method'
 require 'what_methods'
 
 ARGV.concat [ "--readline", "--prompt-mode", "simple" ]
