@@ -7,5 +7,7 @@ if [ -f ~/.bashrc ]; then
   . ~/.bashrc
 fi
 
+export GEMEDITOR='/usr/bin/mate'
+
 # Enable RVM
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
