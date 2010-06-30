@@ -7,8 +7,11 @@ elif [[ $platform == 'Darwin' ]]; then
 fi
 
 alias aliases='vim ~/.dotfiles/bash/aliases'
-alias b='ssh -t ben@benorenstein.com screen -rd irc'
-alias ben='ssh ben@benorenstein.com'
+# alias b='ssh -t ben@benorenstein.com screen -rd irc'
+# alias ben='ssh ben@benorenstein.com'
+# alias m='cd ~/projects/montague'
+# alias n='cd ~/projects/nucleus'
+# alias r='ssh beno@rd2.dfci.harvard.edu'
 alias d='cd ~/.dotfiles'
 alias g='git status'
 alias gc='git commit'
@@ -22,11 +25,6 @@ alias gg='git lg'
 alias i='screen -rd irc'
 alias irb='irb --readline -r irb/completion'
 alias lm='!! | more'
-alias m='cd ~/projects/montague'
-alias n='cd ~/projects/nucleus'
-alias r='ssh beno@rd2.dfci.harvard.edu'
-alias retag='ctags -R --exclude=.svn --exclude=.git --exclude=log *'
-alias rep="cd ~/projects/dfhcc_reports"
 alias rdm="rake db:migrate"
 alias rdtp="rake db:test:prepare"
 alias rc='rails console'
@@ -35,4 +33,3 @@ alias s='screen -dr rails'
 alias sc='script/console'
 alias so='source ~/.dotfiles/bash/aliases'
 alias ss='ruby script/server -p 3001 --debugger'
-alias t='cd ~/projects/dfhcc_trials'
