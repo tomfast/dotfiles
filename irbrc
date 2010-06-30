@@ -1,9 +1,17 @@
 #!/usr/bin/ruby
-require 'irb/completion'
+require 'rubygems'
+require 'pp'
 require 'irb/ext/save-history'
+require 'irb/completion'
+
+require 'map_by_method'
+require 'what_methods'
+
+ARGV.concat [ "--readline", "--prompt-mode", "simple" ]
 
 IRB.conf[:SAVE_HISTORY] = 1000
-IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb_history"
+IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-save-history"
+IRB.conf[:AUTO_INDENT]=truej
 
 IRB.conf[:PROMPT_MODE] = :SIMPLE
 

@@ -1,7 +1,7 @@
 ###########
 # general #
 ###########
-export EDITOR="vim"
+export EDITOR="mate"
 
 # Autocorrect mispelled directories
 shopt -s cdspell
