@@ -1,7 +1,8 @@
 .DS_Store
 .svn
-*~
-tags
-log/
+icebox
 config/database.yml
 db/*.sqlite3
+*.swp 
+*.swo
+.rvmrc
