@@ -1,11 +1,11 @@
 Ben Orenstein's Dot Files
 
-(gleefully stolen/forked from Ryan Bates)
+(gleefully stolen/forked from Ryan Bates and r00k)
 
 These are config files to set up a system the way I like it.
 
 Installation
 
-  git clone git://github.com/r00k/dotfiles ~/.dotfiles
+  git clone git://github.com/alkema/dotfiles ~/.dotfiles
   cd ~/.dotfiles
   rake install
