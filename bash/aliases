@@ -6,12 +6,15 @@ elif [[ $platform == 'Darwin' ]]; then
   alias a='ls -lrthG'
 fi
 
-alias aliases='vim ~/.dotfiles/bash/aliases'
-# alias b='ssh -t ben@benorenstein.com screen -rd irc'
-alias t='ssh orthodox@alkema.ca'
-alias training='cd ~/code/clac-training'
-alias jobs='cd ~/code/clac-jobs'
-alias d='cd ~/.dotfiles'
+alias aliases='mate ~/.dotfiles/bash/aliases'
+alias d='cd ~/dotfiles'
+alias so='source ~/dotfiles/bash/aliases'
+alias di='d; rake install'
+
+alias t='cd ~/code/kya'
+alias t='cd ~/code/clac-training'
+alias j='cd ~/code/clac-jobs'
+
 alias g='git status'
 alias gc='git commit'
 alias gca='git commit -a'
@@ -21,12 +24,10 @@ alias gd='git diff'
 alias gdc='git diff --cached'
 alias get='sudo apt-get install'
 alias gg='git log'
-alias i='screen -rd irc'
+
 alias irb='irb --readline -r irb/completion'
+
 alias rdm="rake db:migrate"
-alias rc='rails console'
-alias rs='rails server -p 3001'
-alias s='screen -dr rails'
 alias sc='script/console'
-alias so='source ~/.dotfiles/bash/aliases'
 alias ss='ruby script/server -p 3001'
+
