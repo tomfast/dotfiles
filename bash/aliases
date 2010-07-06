@@ -12,7 +12,7 @@ alias so='source ~/dotfiles/bash/aliases'
 alias di='d; rake install'
 
 alias s='cd ~/code/slidelongboards'
-alias t='cd ~/code/benefic'
+alias b='cd ~/code/benefic'
 alias k='cd ~/code/kya'
 alias t='cd ~/code/clac-training'
 alias j='cd ~/code/clac-jobs'
