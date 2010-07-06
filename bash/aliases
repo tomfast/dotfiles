@@ -11,7 +11,9 @@ alias d='cd ~/dotfiles'
 alias so='source ~/dotfiles/bash/aliases'
 alias di='d; rake install'
 
-alias t='cd ~/code/kya'
+alias s='cd ~/code/slidelongboards'
+alias t='cd ~/code/benefic'
+alias k='cd ~/code/kya'
 alias t='cd ~/code/clac-training'
 alias j='cd ~/code/clac-jobs'
 
@@ -29,5 +31,5 @@ alias irb='irb --readline -r irb/completion'
 
 alias rdm="rake db:migrate"
 alias sc='script/console'
-alias ss='ruby script/server -p 3001'
+alias ss='launchy http://localhost:3000; ruby script/server -p 3000;'
 
