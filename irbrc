@@ -3,14 +3,25 @@ require 'rubygems'
 require 'pp'
 require 'irb/ext/save-history'
 require 'irb/completion'
-
 require 'what_methods'
+
+begin
+  require "ap"
+  IRB::Irb.class_eval do
+    def output_value
+      ap @context.last_value
+    end
+  end
+rescue LoadError => e
+  puts "ap gem not found.  Try typing 'gem install awesome_print' to get super-fancy output."
+end
+
 
 ARGV.concat [ "--readline", "--prompt-mode", "simple" ]
 
 IRB.conf[:SAVE_HISTORY] = 1000
 IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-save-history"
-IRB.conf[:AUTO_INDENT]=truej
+IRB.conf[:AUTO_INDENT]=true
 
 IRB.conf[:PROMPT_MODE] = :SIMPLE
 

@@ -29,7 +29,3 @@ alias gg='git log'
 
 alias irb='irb --readline -r irb/completion'
 
-alias rdm="rake db:migrate"
-alias sc='script/console'
-alias ss='launchy http://localhost:3000; ruby script/server -p 3000;'
-

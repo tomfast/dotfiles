@@ -2,6 +2,7 @@
 # general #
 ###########
 export EDITOR="mate"
+export GIT_EDITOR='/usr/bin/mate -w'
 
 # Autocorrect mispelled directories
 shopt -s cdspell
