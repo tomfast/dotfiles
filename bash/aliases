@@ -29,3 +29,6 @@ alias gg='git log'
 
 alias irb='irb --readline -r irb/completion'
 
+alias ls="ls -al"
+alias be="bundle exec"
+alias bec="bundle exec cucumber"

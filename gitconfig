@@ -4,13 +4,11 @@
 	branch = auto
 [color "diff"]
 	meta = yellow
-[jody]
-	alkema = Jody Alkema
 [user]
-	name = Jody Alkema
-	email = jody@alkema.ca
+	name = Tom Fast
+	email = tom@domain7.com
 [core]
-	excludesfile=/Users/jody/.gitignore
+	excludesfile=/Users/tomfast/.gitignore
 [alias]
 	co = checkout
 [color]
