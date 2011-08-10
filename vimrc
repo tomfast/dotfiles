@@ -1,6 +1,16 @@
 " ================
+" Setup Pathogent 
+" ================
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+" ================
+" Setup Database Connections 
+" ================
+source ~/.vim/db
+" ================
 " Ruby stuff
 " ================
+set nocp
 syntax on                 " Enable syntax highlighting
 filetype plugin indent on " Enable filetype-specific indenting and plugins
 
@@ -171,3 +181,15 @@ if has("autocmd")
   augroup END
 
 endif " has("autocmd")
+
+"if has ("gui_running")
+	"colorscheme ir_black
+	"colorscheme mustang
+	"colorscheme adaryn
+	"colorscheme 256adaryn
+"else
+	"colorscheme ir_black
+	"colorscheme mustang
+	"colorscheme adaryn
+	"colorscheme 256adaryn
+"endif
