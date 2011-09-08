@@ -11,12 +11,6 @@ alias d='cd ~/dotfiles'
 alias so='source ~/dotfiles/bash/aliases'
 alias di='d; rake install'
 
-alias s='cd ~/code/slidelongboards'
-alias b='cd ~/code/benefic'
-alias k='cd ~/code/kya'
-alias t='cd ~/code/clac-training'
-alias j='cd ~/code/clac-jobs'
-
 alias g='git status'
 alias gc='git commit'
 alias gca='git commit -a'
@@ -32,3 +26,5 @@ alias irb='irb --readline -r irb/completion'
 alias ls="ls -al"
 alias be="bundle exec"
 alias bec="bundle exec cucumber"
+
+alias filemerge="/Developer/Applications/FileMerge.app/Contents/MacOS/FileMerge"
