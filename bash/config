@@ -1,8 +1,8 @@
 ###########
 # general #
 ###########
-export EDITOR="mate"
-export GIT_EDITOR='/usr/bin/mate -w'
+export EDITOR='mvim'
+export GIT_EDITOR='/usr/local/bin/mvim -'
 
 # Autocorrect mispelled directories
 shopt -s cdspell
