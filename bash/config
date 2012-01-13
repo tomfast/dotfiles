@@ -1,8 +1,11 @@
 ###########
 # general #
 ###########
-export EDITOR='mvim'
-export GIT_EDITOR='/usr/local/bin/mvim -'
+#export EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
+#export EDITOR='mvim'
+#export GIT_EDITOR='/usr/local/bin/mvim -'
+
+export EDITOR=vim
 
 # Autocorrect mispelled directories
 shopt -s cdspell
@@ -71,3 +74,14 @@ if [ -f "${SSH_ENV}" ]; then
 else
 	start_agent;
 fi 
+
+# POSTGRESQL
+export PGHOST=localhost
+export PGPORT=5432
+export PGUSER=tomfast
+export PGDATABASE=template1
+export PGPASSFILE=~/.pgpass
+export PGSSLMODE=prefer
+export PGDATESTYLE=ISO
+export PGTZ=America/Vancouver
+export PGCLIENTENCODING=UTF8
