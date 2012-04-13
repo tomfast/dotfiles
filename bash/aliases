@@ -33,3 +33,5 @@ alias mysql_service='/usr/local/bin/mysql.server'
 alias psql_service='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log'
 alias service_mysql='/usr/local/bin/mysql.server'
 alias service_postgresql='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log'
+
+alias ll='ls -lh'
