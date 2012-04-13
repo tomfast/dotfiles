@@ -85,3 +85,11 @@ export PGSSLMODE=prefer
 export PGDATESTYLE=ISO
 export PGTZ=America/Vancouver
 export PGCLIENTENCODING=UTF8
+
+# cd to root of git repository
+git-top(){
+    top=$(git rev-parse --show-toplevel)
+    if [ 0 -eq $? ]; then
+        cd $top
+    fi
+}

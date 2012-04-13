@@ -28,3 +28,6 @@ alias be="bundle exec"
 alias bec="bundle exec cucumber"
 
 alias filemerge="/Developer/Applications/FileMerge.app/Contents/MacOS/FileMerge"
+
+alias mysql_service='/usr/local/bin/mysql.server'
+alias psql_service='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log'
